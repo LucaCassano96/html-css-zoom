@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ font-family: 'Lato', sans-serif;
+}
+
+.maincontainer{
+    height: 100vh;
+    position: relative;
+}
+
+header{
+    height: 5%;
+    width: 100%;
+    background-color: blueviolet;
+    position: absolute;
+    top:0;
+}
+
+main{
+  padding-top: 3%;
+  height: 100%;
+  overflow: auto;
+  background-color: brown;
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+
+}
